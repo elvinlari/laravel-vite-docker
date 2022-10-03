@@ -64,7 +64,7 @@ This is a Laravel boilerplate running with ReactJS as frontend on Docker. It mak
 
 _For more details, please refer to the project's [Blog](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -75,7 +75,7 @@ Here is a list of major frameworks used to bootstrap the project.
 * [![React][React.js]][React-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -95,7 +95,7 @@ To set up the application simply clone the repo using the below command.
 git clone https://github.com/elvinlari/laravel-vite-docker.git
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -106,7 +106,7 @@ You can use this code as a boilerplate for building your next **Cloud Native** L
 
 Containers from this project can be deployed on *Kubernetes*, *Docker Swarm* or whichever orchestrator you prefer.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -118,7 +118,7 @@ Containers from this project can be deployed on *Kubernetes*, *Docker Swarm* or 
 
 See the [open issues](https://github.com/elvinlari/laravel-vite-docker/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -136,7 +136,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -145,7 +145,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE` file for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -156,7 +156,7 @@ Elvin Lari - [@elvinlarie](https://twitter.com/elvinlarie) - elvinlari@gmail.com
 
 Project Link: [https://github.com/elvinlari/laravel-vite-docker](https://github.com/elvinlari/laravel-vite-docker)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
@@ -174,7 +174,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 
