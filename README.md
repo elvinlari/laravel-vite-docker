@@ -18,7 +18,7 @@
   <p align="center">
     Running Laravel and React stacks together using Vite and InertiaJS on Docker.
     <br />
-    <a href="https://betterprogramming.pub/dockerize-laravel-vite-react-application-in-your-development-environment-a118aea4a02d?source=friends_link&sk=98e665436b5bd2e2ec9cc4d57fcce130/"><strong>Explore project blog »</strong></a>
+    <a href="https://betterprogramming.pub/dockerize-laravel-vite-react-application-in-your-development-environment-a118aea4a02d?source=friends_link&sk=98e665436b5bd2e2ec9cc4d57fcce130/"><strong>Explore project's blog »</strong></a>
     <br />
     <br />
     <a href="https://github.com/elvinlari/laravel-vite-docker/issues">Report Bug</a>
