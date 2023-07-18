@@ -1,185 +1,74 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v9.3.8...9.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v10.2.5...10.x)
 
-## [v9.3.8](https://github.com/laravel/laravel/compare/v9.3.7...v9.3.8) - 2022-09-20
+## [v10.2.5](https://github.com/laravel/laravel/compare/v10.2.4...v10.2.5) - 2023-06-30
 
-### Changed
+- Allow accessing APP_NAME in Vite scope by [@domnantas](https://github.com/domnantas) in https://github.com/laravel/laravel/pull/6204
+- Omit default values for suffix in phpunit.xml by [@spawnia](https://github.com/spawnia) in https://github.com/laravel/laravel/pull/6210
 
-- Validation added `required_if_accepted` by @luisprmat in https://github.com/laravel/laravel/pull/5987
+## [v10.2.4](https://github.com/laravel/laravel/compare/v10.2.3...v10.2.4) - 2023-06-07
 
-## [v9.3.7](https://github.com/laravel/laravel/compare/v9.3.6...v9.3.7) - 2022-09-02
+- Add `precognitive` key to $middlewareAliases by @emargareten in https://github.com/laravel/laravel/pull/6193
 
-### Changed
+## [v10.2.3](https://github.com/laravel/laravel/compare/v10.2.2...v10.2.3) - 2023-06-01
 
-- Make email unique by @martin-ro in https://github.com/laravel/laravel/pull/5978
+- Update description by @taylorotwell in https://github.com/laravel/laravel/commit/85203d687ebba72b2805b89bba7d18dfae8f95c8
 
-## [v9.3.6](https://github.com/laravel/laravel/compare/v9.3.5...v9.3.6) - 2022-08-29
+## [v10.2.2](https://github.com/laravel/laravel/compare/v10.2.1...v10.2.2) - 2023-05-23
 
-### Changed
+- Add lock path by @taylorotwell in https://github.com/laravel/laravel/commit/a6bfbc7f90e33fd6cae3cb23f106c9689858c3b5
 
-- Bump Vite plugin version by @timacdonald in https://github.com/laravel/laravel/pull/5977
+## [v10.2.1](https://github.com/laravel/laravel/compare/v10.2.0...v10.2.1) - 2023-05-12
 
-## [v9.3.5](https://github.com/laravel/laravel/compare/v9.3.4...v9.3.5) - 2022-08-22
+- Add hashed cast to user password by @emargareten in https://github.com/laravel/laravel/pull/6171
+- Bring back pusher cluster config option by @jesseleite in https://github.com/laravel/laravel/pull/6174
 
-### Changed
+## [v10.2.0](https://github.com/laravel/laravel/compare/v10.1.1...v10.2.0) - 2023-05-05
 
-- `max_digits` and `min_digits` validation translations by @danharrin in https://github.com/laravel/laravel/pull/5975
-- Use short closure by @taylorotwell in https://github.com/laravel/laravel/commit/7b17f5f32623c2ee75f2bff57a42bb8f180ac779
-- Use except by @taylorotwell in https://github.com/laravel/laravel/commit/e2e25f607a894427d6545f611ad3c8d94d022e9d
+- Update welcome.blade.php by @aymanatmeh in https://github.com/laravel/laravel/pull/6163
+- Sets package.json type to module by @timacdonald in https://github.com/laravel/laravel/pull/6090
+- Add url support for mail config by @chu121su12 in https://github.com/laravel/laravel/pull/6170
 
-## [v9.3.4](https://github.com/laravel/laravel/compare/v9.3.3...v9.3.4) - 2022-08-15
+## [v10.1.1](https://github.com/laravel/laravel/compare/v10.0.7...v10.1.1) - 2023-04-18
 
-### Changed
+- Fix laravel/framework constraints for Default Service Providers by @Jubeki in https://github.com/laravel/laravel/pull/6160
 
-- Add ValidateSignature middleware for ignore params by @valorin in https://github.com/laravel/laravel/pull/5942
+## [v10.0.7](https://github.com/laravel/laravel/compare/v10.1.0...v10.0.7) - 2023-04-14
 
-## [v9.3.3](https://github.com/laravel/laravel/compare/v9.3.2...v9.3.3) - 2022-08-03
+- Adds `phpunit/phpunit@10.1` support by @nunomaduro in https://github.com/laravel/laravel/pull/6155
 
-### Changed
+## [v10.1.0](https://github.com/laravel/laravel/compare/v10.0.6...v10.1.0) - 2023-04-15
 
-- Validation added `doesnt_end_with` translation by @kichetof in https://github.com/laravel/laravel/pull/5962
+- Minor skeleton slimming by @taylorotwell in https://github.com/laravel/laravel/pull/6159
 
-## [v9.3.2](https://github.com/laravel/laravel/compare/v9.3.1...v9.3.2) - 2022-08-01
+## [v10.0.6](https://github.com/laravel/laravel/compare/v10.0.5...v10.0.6) - 2023-04-05
 
-### Changed
+- Add job batching options to Queue configuration file by @AnOlsen in https://github.com/laravel/laravel/pull/6149
 
-- Update Sanctum by @suyar in https://github.com/laravel/laravel/pull/5957
-- Allow Pest plugin in Composer by @driesvints in https://github.com/laravel/laravel/pull/5959
+## [v10.0.5](https://github.com/laravel/laravel/compare/v10.0.4...v10.0.5) - 2023-03-08
 
-## [v9.3.1](https://github.com/laravel/laravel/compare/v9.3.0...v9.3.1) - 2022-07-26
+- Add replace_placeholders to log channels by @alanpoulain in https://github.com/laravel/laravel/pull/6139
 
-### Changed
+## [v10.0.4](https://github.com/laravel/laravel/compare/v10.0.3...v10.0.4) - 2023-02-27
 
-- Update font delivery by @abenerd in https://github.com/laravel/laravel/pull/5952
-- Don't need to ignore vite config file by @GrahamCampbell in https://github.com/laravel/laravel/pull/5953
+- Fix typo by @izzudin96 in https://github.com/laravel/laravel/pull/6128
+- Specify facility in the syslog driver config by @nicolus in https://github.com/laravel/laravel/pull/6130
 
-## [v9.3.0](https://github.com/laravel/laravel/compare/v9.2.1...v9.3.0) - 2022-07-20
+## [v10.0.3](https://github.com/laravel/laravel/compare/v10.0.2...v10.0.3) - 2023-02-21
 
-### Added
+- Remove redundant `@return` docblock in UserFactory by @datlechin in https://github.com/laravel/laravel/pull/6119
+- Reverts change in asset helper by @timacdonald in https://github.com/laravel/laravel/pull/6122
 
-- Uses `laravel/pint` for styling by @nunomaduro in https://github.com/laravel/laravel/pull/5945
+## [v10.0.2](https://github.com/laravel/laravel/compare/v10.0.1...v10.0.2) - 2023-02-16
 
-### Changed
+- Remove unneeded call by @taylorotwell in https://github.com/laravel/laravel/commit/3986d4c54041fd27af36f96cf11bd79ce7b1ee4e
 
-- Bump axios version by @ankurk91 in https://github.com/laravel/laravel/pull/5946
-- Vite 3 support by @timacdonald in https://github.com/laravel/laravel/pull/5944
+## [v10.0.1](https://github.com/laravel/laravel/compare/v10.0.0...v10.0.1) - 2023-02-15
 
-## [v9.2.1](https://github.com/laravel/laravel/compare/v9.2.0...v9.2.1) - 2022-07-13
+- Add PHPUnit result cache to gitignore by @itxshakil in https://github.com/laravel/laravel/pull/6105
+- Allow php-http/discovery as a composer plugin by @nicolas-grekas in https://github.com/laravel/laravel/pull/6106
 
-### Changed
+## [v10.0.0 (2022-02-14)](https://github.com/laravel/laravel/compare/v9.5.2...v10.0.0)
 
-- Add auth.json to skeleton by @driesvints in https://github.com/laravel/laravel/pull/5924
-- Update `bootstrap.js` by @irsyadadl in https://github.com/laravel/laravel/pull/5929
-- Add default reloading to skeleton by @timacdonald in https://github.com/laravel/laravel/pull/5927
-- Update to the latest version of laravel-vite-plugin by @jessarcher in https://github.com/laravel/laravel/pull/5943
-
-## [v9.2.0](https://github.com/laravel/laravel/compare/v9.1.10...v9.2.0) - 2022-06-28
-
-### Added
-
-- Vite by @jessarcher in https://github.com/laravel/laravel/pull/5904
-- Added support for easy development configuration in bootstrap.js by @rennokki in https://github.com/laravel/laravel/pull/5900
-
-### Changed
-
-- Sorted entries in the `en` validation translations file by @FaridAghili in https://github.com/laravel/laravel/pull/5899
-
-## [v9.1.10](https://github.com/laravel/laravel/compare/v9.1.9...v9.1.10) - 2022-06-07
-
-### Changed
-
-- Add language line by @taylorotwell in https://github.com/laravel/laravel/commit/b084aacc5ad105e39c2b058e9523e73655be8d1f
-- Improve Pusher configuration for easy development by @oanhnn in https://github.com/laravel/laravel/pull/5897
-
-## [v9.1.9](https://github.com/laravel/laravel/compare/v9.1.8...v9.1.9) - 2022-05-28
-
-### Changed
-
-- Switch to ESM imports by @jessarcher in https://github.com/laravel/laravel/pull/5895
-
-## [v9.1.8](https://github.com/laravel/laravel/compare/v9.1.7...v9.1.8) - 2022-05-05
-
-### Changed
-
-- Add local_domain option to smtp configuration by @bintzandt in https://github.com/laravel/laravel/pull/5877
-- Add specific test user in seeder by @driesvints in https://github.com/laravel/laravel/pull/5879
-
-## [v9.1.7](https://github.com/laravel/laravel/compare/v9.1.6...v9.1.7) - 2022-05-03
-
-### Changed
-
-- Deprecation log stack trace option by @driesvints in https://github.com/laravel/laravel/pull/5874
-
-## [v9.1.6](https://github.com/laravel/laravel/compare/v9.1.5...v9.1.6) - 2022-04-20
-
-### Changed
-
-- Move password lines into main translation file by @taylorotwell in https://github.com/laravel/laravel/commit/db0d052ece1c17c506633f4c9f5604b65e1cc3a4
-- Add missing maintenance to config by @ibrunotome in https://github.com/laravel/laravel/pull/5868
-
-## [v9.1.5](https://github.com/laravel/laravel/compare/v9.1.4...v9.1.5) - 2022-04-12
-
-### Changed
-
-- Rearrange route methods by @osbre in https://github.com/laravel/laravel/pull/5862
-- Add levels to handler by @taylorotwell in https://github.com/laravel/laravel/commit/a507e1424339633ce423729ec0ac49b99f0e57d7
-
-## [v9.1.4](https://github.com/laravel/laravel/compare/v9.1.3...v9.1.4) - 2022-03-29
-
-### Changed
-
-- Add encryption configuration by @taylorotwell in https://github.com/laravel/laravel/commit/f7b982ebdf7bd31eda9f05f901bd92ed32446156
-
-## [v9.1.3](https://github.com/laravel/laravel/compare/v9.1.2...v9.1.3) - 2022-03-29
-
-### Changed
-
-- Add an example to the class aliases by @nshiro in https://github.com/laravel/laravel/pull/5846
-- Add username in config to use with phpredis + ACL by @neoteknic in https://github.com/laravel/laravel/pull/5851
-- Remove "password" from validation lang by @mnastalski in https://github.com/laravel/laravel/pull/5856
-- Make authenticate session a route middleware by @taylorotwell in https://github.com/laravel/laravel/pull/5842
-
-## [v9.1.2](https://github.com/laravel/laravel/compare/v9.1.1...v9.1.2) - 2022-03-15
-
-### Changed
-
-- The docker-compose.override.yml should not be ignored by default by @dakira in https://github.com/laravel/laravel/pull/5838
-
-## [v9.1.1](https://github.com/laravel/laravel/compare/v9.1.0...v9.1.1) - 2022-03-08
-
-### Changed
-
-- Add option to configure Mailgun transporter scheme by @jnoordsij in https://github.com/laravel/laravel/pull/5831
-- Add `throw` to filesystems config by @ankurk91 in https://github.com/laravel/laravel/pull/5835
-
-### Fixed
-
-- Small typo fix in filesystems.php by @tooshay in https://github.com/laravel/laravel/pull/5827
-- Update sendmail default params by @driesvints in https://github.com/laravel/laravel/pull/5836
-
-## [v9.1.0](https://github.com/laravel/laravel/compare/v9.0.1...v9.1.0) - 2022-02-22
-
-### Changed
-
-- Remove namespace from Routes by @emargareten in https://github.com/laravel/laravel/pull/5818
-- Update sanctum config file by @suyar in https://github.com/laravel/laravel/pull/5820
-- Replace Laravel CORS package by @driesvints in https://github.com/laravel/laravel/pull/5825
-
-## [v9.0.1](https://github.com/laravel/laravel/compare/v9.0.0...v9.0.1) - 2022-02-15
-
-### Changed
-
-- Improve typing on user factory by @axlon in https://github.com/laravel/laravel/pull/5806
-- Align min PHP version with docs by @u01jmg3 in https://github.com/laravel/laravel/pull/5807
-- Remove redundant `null`s by @felixdorn in https://github.com/laravel/laravel/pull/5811
-- Remove default commented namespace by @driesvints in https://github.com/laravel/laravel/pull/5816
-- Add underscore to prefix in database cache key by @m4tlch in https://github.com/laravel/laravel/pull/5817
-
-### Fixed
-
-- Fix lang alphabetical order by @shuvroroy in https://github.com/laravel/laravel/pull/5812
-
-## [v9.0.0 (2022-02-08)](https://github.com/laravel/laravel/compare/v8.6.11...v9.0.0)
-
-Laravel 9 includes a variety of changes to the application skeleton. Please consult the diff to see what's new.
+Laravel 10 includes a variety of changes to the application skeleton. Please consult the diff to see what's new.
